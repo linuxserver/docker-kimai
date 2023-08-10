@@ -32,7 +32,6 @@ param_container_name: "{{ project_name }}"
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "DATABASE_URL", env_value: "mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name", desc: "Configure your database connection"}
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London.", name: "Timezone" }
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Configuration files.", name: "Appdata" }
