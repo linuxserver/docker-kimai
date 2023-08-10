@@ -1,5 +1,4 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-cd /app/www || exit 1
-s6-setuidgid abc php -d memory_limit=-1 bin/console "$*"
+s6-setuidgid abc cd /app/www /bin/bash -c "php -d memory_limit=-1 bin/console $*"
