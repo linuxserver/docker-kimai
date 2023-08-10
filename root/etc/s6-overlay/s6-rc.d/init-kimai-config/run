@@ -1,11 +1,6 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-# Echo init finish for test runs
-if [ -n "${TEST_RUN}" ]; then
-    echo '[ls.io-init] done.'
-fi
-
 DB_VALID=$(php -r 'echo filter_var(getenv("DATABASE_URL"), FILTER_VALIDATE_URL, FILTER_FLAG_PATH_REQUIRED);')
 
 if [[ ${DATABASE_URL+x} == "" ]] || [[ ${DB_VALID+x} == "NULL" ]]; then
