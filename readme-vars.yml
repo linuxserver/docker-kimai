@@ -41,6 +41,11 @@ param_ports:
   - { external_port: "80", internal_port: "80", port_desc: "http gui" }
   - { external_port: "443", internal_port: "443", port_desc: "https gui" }
 
+# Unraid templating
+unraid_template_sync: true
+unraid_template: true
+unraid_requirement: "A MySQL or MariaDB database is required."
+
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
