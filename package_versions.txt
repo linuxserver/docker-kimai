@@ -124,7 +124,6 @@ nelmio/api-doc-bundle                                                           
 nelmio/cors-bundle                                                                2.3.1                   php-composer  
 netcat-openbsd                                                                    1.219-r1                apk           
 nghttp2-libs                                                                      1.55.1-r0               apk           
-nginx                                                                             1.24.0                  binary        
 nginx                                                                             1.24.0-r6               apk           
 nikic/php-parser                                                                  v4.17.1                 php-composer  
 onelogin/php-saml                                                                 4.1.0                   php-composer  
@@ -137,7 +136,6 @@ pcre                                                                            
 pcre2                                                                             10.42-r1                apk           
 phar-io/manifest                                                                  2.0.3                   php-composer  
 phar-io/version                                                                   3.2.1                   php-composer  
-php-fpm                                                                           8.2.8                   binary        
 php82                                                                             8.2.8-r0                apk           
 php82-common                                                                      8.2.8-r0                apk           
 php82-ctype                                                                       8.2.8-r0                apk           
