@@ -117,5 +117,6 @@ external_application_unraid_block: "We recommend using our [MariaDB](https://git
 
 # changelog
 changelogs:
+  - { date: "25.12.23:", desc: "Existing users should update: site-confs/default.conf - Cleanup default site conf." }
   - { date: "21.08.23:", desc: "Important documentation update for setting `DATABASE_URL` with version 2.0.30 and later." }
   - { date: "09.08.23:", desc: "Initial Release." }
