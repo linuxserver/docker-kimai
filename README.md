@@ -359,5 +359,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **02.01.24:** - Symlink config.yaml to /config for user editing.
 * **21.08.23:** - Important documentation update for setting `DATABASE_URL` with version 2.0.30 and later.
 * **09.08.23:** - Initial Release.
