@@ -10,7 +10,7 @@ apk-tools                            2.14.0-r2               apk
 apr                                  1.7.4-r0                apk           
 apr-util                             1.6.3-r1                apk           
 argon2-libs                          20190702-r4             apk           
-azuyalabs/yasumi                     2.6.0                   php-composer  
+azuyalabs/yasumi                     2.7.0                   php-composer  
 bacon/bacon-qr-code                  2.0.8                   php-composer  
 bash                                 5.2.15-r5               apk           
 behat/transliterator                 v1.5.0                  php-composer  
@@ -51,7 +51,7 @@ erusev/parsedown                     1.7.4                   php-composer
 ezyang/htmlpurifier                  v4.17.0                 php-composer  
 fakerphp/faker                       v1.23.1                 php-composer  
 freetype                             2.13.0-r5               apk           
-friendsofphp/php-cs-fixer            v3.45.0                 php-composer  
+friendsofphp/php-cs-fixer            v3.46.0                 php-composer  
 friendsofsymfony/rest-bundle         3.6.0                   php-composer  
 gdbm                                 1.23-r1                 apk           
 gedmo/doctrine-extensions            v3.14.0                 php-composer  
@@ -63,7 +63,6 @@ jms/serializer                       3.29.1                  php-composer
 jms/serializer-bundle                5.4.0                   php-composer  
 jq                                   1.6-r4                  apk           
 kevinpapst/tabler-bundle             1.1.0                   php-composer  
-laminas/laminas-escaper              2.13.0                  php-composer  
 league/csv                           9.14.0                  php-composer  
 libacl                               2.3.1-r3                apk           
 libattr                              2.5.1-r4                apk           
@@ -122,12 +121,12 @@ musl-utils                           1.2.4-r2                apk
 myclabs/deep-copy                    1.11.1                  php-composer  
 nano                                 7.2-r1                  apk           
 ncurses-terminfo-base                6.4_p20230506-r0        apk           
-nelmio/api-doc-bundle                v4.15.1                 php-composer  
+nelmio/api-doc-bundle                v4.16.2                 php-composer  
 nelmio/cors-bundle                   2.4.0                   php-composer  
 netcat-openbsd                       1.219-r1                apk           
 nghttp2-libs                         1.57.0-r0               apk           
 nginx                                1.24.0-r7               apk           
-nikic/php-parser                     v4.18.0                 php-composer  
+nikic/php-parser                     v5.0.0                  php-composer  
 onelogin/php-saml                    4.1.0                   php-composer  
 oniguruma                            6.9.8-r1                apk           
 openssl                              3.1.4-r1                apk           
@@ -170,11 +169,12 @@ php82-zip                            8.2.13-r0               apk
 phpdocumentor/reflection-common      2.2.0                   php-composer  
 phpdocumentor/reflection-docblock    5.3.0                   php-composer  
 phpdocumentor/type-resolver          1.7.3                   php-composer  
+phpoffice/math                       0.1.0                   php-composer  
 phpoffice/phpspreadsheet             1.29.0                  php-composer  
-phpoffice/phpword                    1.1.0                   php-composer  
-phpstan/phpdoc-parser                1.24.5                  php-composer  
-phpstan/phpstan                      1.10.50                 php-composer  
-phpstan/phpstan-doctrine             1.3.53                  php-composer  
+phpoffice/phpword                    1.2.0                   php-composer  
+phpstan/phpdoc-parser                1.25.0                  php-composer  
+phpstan/phpstan                      1.10.55                 php-composer  
+phpstan/phpstan-doctrine             1.3.54                  php-composer  
 phpstan/phpstan-phpunit              1.3.15                  php-composer  
 phpstan/phpstan-strict-rules         1.5.2                   php-composer  
 phpstan/phpstan-symfony              1.3.6                   php-composer  
@@ -300,6 +300,6 @@ webmozart/assert                     1.11.0                  php-composer
 willdurand/jsonp-callback-validator  v2.0.0                  php-composer  
 willdurand/negotiation               3.1.0                   php-composer  
 xz-libs                              5.4.3-r0                apk           
-zircote/swagger-php                  4.8.2                   php-composer  
+zircote/swagger-php                  4.8.3                   php-composer  
 zlib                                 1.2.13-r1               apk           
 zstd-libs                            1.5.5-r4                apk           
