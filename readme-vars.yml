@@ -113,6 +113,7 @@ external_application_unraid_block: "We recommend using our [MariaDB](https://git
 
 # changelog
 changelogs:
-  - { date: "23.12.23:", desc: "Rebase to Alpine 3.19 with php 8.3."}
+  - { date: "23.01.24:", desc: "Rebase to Alpine 3.19 with php 8.3."}
+  - { date: "02.01.24:", desc: "Symlink config.yaml to /config for user editing." }
   - { date: "21.08.23:", desc: "Important documentation update for setting `DATABASE_URL` with version 2.0.30 and later." }
   - { date: "09.08.23:", desc: "Initial Release." }
