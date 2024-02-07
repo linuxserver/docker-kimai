@@ -109,7 +109,7 @@ services:
       - TZ=Etc/UTC
       - DATABASE_URL=mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name?charset=your_db_charset&serverVersion=your_db_version
     volumes:
-      - /path/to/appdata/config:/config
+      - /path/to/kimai/config:/config
     ports:
       - 80:80
       - 443:443
@@ -147,7 +147,7 @@ docker run -d \
   -e DATABASE_URL=mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name?charset=your_db_charset&serverVersion=your_db_version \
   -p 80:80 \
   -p 443:443 \
-  -v /path/to/appdata/config:/config \
+  -v /path/to/kimai/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/kimai:latest
 
@@ -180,7 +180,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e DATABASE_URL=mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name?charset=your_db_charset&serverVersion=your_db_version` | Configure your database connection, see Application Setup instructions. |
-| `-v /config` | Configuration files. |
+| `-v /config` | Persistent config files |
 
 ## Environment variables from files (Docker secrets)
 
@@ -343,6 +343,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.01.24:** - Rebase to Alpine 3.19 with php 8.3.
 * **02.01.24:** - Symlink config.yaml to /config for user editing.
 * **21.08.23:** - Important documentation update for setting `DATABASE_URL` with version 2.0.30 and later.
 * **09.08.23:** - Initial Release.
