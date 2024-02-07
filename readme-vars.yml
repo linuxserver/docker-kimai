@@ -12,10 +12,6 @@ project_blurb: |
   JSON API, invoicing, data exports, multi-timer and punch-in punch-out mode, tagging, multi-user - multi-timezones - multi-language ([over 30 translations existing](https://hosted.weblate.org/projects/kimai/)!), authentication via SAML/LDAP/Database, two-factor authentication (2FA) with TOTP, customizable role and team permissions, responsive design, user/customer/project specific rates, advanced search & filtering, money and time budgets, advanced reporting, support for [plugins](https://www.kimai.org/store/) and so much more.
 project_repo_name: "docker-{{ project_name }}"
 
-# deprecation information
-project_deprecation_status: false
-project_deprecation_message: ""
-
 # supported architectures
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
@@ -34,7 +30,7 @@ param_env_vars:
   - { env_var: "DATABASE_URL", env_value: "mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name?charset=your_db_charset&serverVersion=your_db_version", desc: "Configure your database connection, see Application Setup instructions."}
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Configuration files.", name: "Appdata" }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "80", internal_port: "80", port_desc: "http gui" }
@@ -117,6 +113,7 @@ external_application_unraid_block: "We recommend using our [MariaDB](https://git
 
 # changelog
 changelogs:
+  - { date: "23.01.24:", desc: "Rebase to Alpine 3.19 with php 8.3."}
   - { date: "02.01.24:", desc: "Symlink config.yaml to /config for user editing." }
   - { date: "21.08.23:", desc: "Important documentation update for setting `DATABASE_URL` with version 2.0.30 and later." }
   - { date: "09.08.23:", desc: "Initial Release." }
