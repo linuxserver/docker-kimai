@@ -20,7 +20,7 @@ busybox-binsh                        1.36.1-r15             apk
 c-ares                               1.24.0-r1              apk           
 ca-certificates                      20230506-r0            apk           
 ca-certificates-bundle               20230506-r0            apk           
-composer                             2.6.6                  binary        
+composer                             2.7.0                  binary        
 composer/pcre                        3.1.1                  php-composer  
 composer/semver                      3.4.0                  php-composer  
 composer/xdebug-handler              3.0.3                  php-composer  
@@ -300,7 +300,7 @@ twig/inky-extra                      v3.8.0                 php-composer
 twig/intl-extra                      v3.8.0                 php-composer  
 twig/string-extra                    v3.8.0                 php-composer  
 twig/twig                            v3.8.0                 php-composer  
-tzdata                               2023d-r0               apk           
+tzdata                               2024a-r0               apk           
 utmps-libs                           0.1.2.2-r0             apk           
 webmozart/assert                     1.11.0                 php-composer  
 willdurand/jsonp-callback-validator  v2.0.0                 php-composer  
