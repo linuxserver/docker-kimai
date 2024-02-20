@@ -40,6 +40,7 @@ RUN \
   rm -rf /app/www/var && \
   echo "**** install composer dependencies ****" && \
   COMPOSER_MEMORY_LIMIT=-1 php -d memory_limit=-1 /usr/bin/composer install -d /app/www/ --optimize-autoloader --no-interaction && \
+  COMPOSER_MEMORY_LIMIT=-1 php -d memory_limit=-1 /usr/bin/composer require laminas/laminas-ldap -d /app/www/ --optimize-autoloader --no-interaction && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/* \
