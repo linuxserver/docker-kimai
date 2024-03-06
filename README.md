@@ -343,6 +343,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **06.03.24:** - Existing users should update: site-confs/default.conf - Cleanup default site conf.
 * **23.01.24:** - Rebase to Alpine 3.19 with php 8.3.
 * **02.01.24:** - Symlink config.yaml to /config for user editing.
 * **21.08.23:** - Important documentation update for setting `DATABASE_URL` with version 2.0.30 and later.
