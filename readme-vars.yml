@@ -71,7 +71,7 @@ app_setup_block: |
 
   ### Initial setup
   
-  Access the web gui at `https://<your-ip>:80`, for more information check out [Kimai Initial setup](https://www.kimai.org/documentation/initial-setup.html).
+  Access the web gui at `http://<your-ip>:80`, for more information check out [Kimai Initial setup](https://www.kimai.org/documentation/initial-setup.html).
 
 # application setup snippets
 external_application_snippet_enabled: true
