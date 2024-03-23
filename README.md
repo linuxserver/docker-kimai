@@ -89,7 +89,7 @@ docker exec -it kimai console kimai:user:create your_username admin@example.com 
 
 ### Initial setup
 
-Access the web gui at `https://<your-ip>:80`, for more information check out [Kimai Initial setup](https://www.kimai.org/documentation/initial-setup.html).
+Access the web gui at `http://<your-ip>:80`, for more information check out [Kimai Initial setup](https://www.kimai.org/documentation/initial-setup.html).
 
 ## Usage
 
