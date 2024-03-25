@@ -37,9 +37,10 @@ RUN \
   tar xf \
     /tmp/kimai.tar.gz -C \
     /app/www --strip-components=1 && \
-  rm -rf /app/www/var && \
   echo "**** install composer dependencies ****" && \
   COMPOSER_MEMORY_LIMIT=-1 php -d memory_limit=-1 /usr/bin/composer install -d /app/www/ --optimize-autoloader --no-interaction && \
+  COMPOSER_MEMORY_LIMIT=-1 php -d memory_limit=-1 /usr/bin/composer require -d /app/www/ laminas/laminas-ldap && \
+  /usr/bin/composer clearcache -d /app/www/ && \ 
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/* \
