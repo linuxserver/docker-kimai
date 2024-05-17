@@ -60,7 +60,7 @@ friendsofphp/php-cs-fixer            v3.54.0                php-composer
 friendsofsymfony/rest-bundle         3.7.1                  php-composer    
 gdbm                                 1.23-r1                apk             
 gedmo/doctrine-extensions            v3.15.0                php-composer    
-git                                  2.43.0-r0              apk             
+git                                  2.43.4-r0              apk             
 icu-data-en                          74.1-r0                apk             
 icu-libs                             74.1-r0                apk             
 jms/metadata                         2.8.0                  php-composer    
