@@ -15,8 +15,8 @@ bacon/bacon-qr-code                  2.0.8                  php-composer
 bash                                 5.2.21-r0              apk             
 behat/transliterator                 v1.5.0                 php-composer    
 brotli-libs                          1.1.0-r1               apk             
-busybox                              1.36.1-r18             apk             
-busybox-binsh                        1.36.1-r18             apk             
+busybox                              1.36.1-r19             apk             
+busybox-binsh                        1.36.1-r19             apk             
 c-ares                               1.27.0-r0              apk             
 ca-certificates                      20240226-r0            apk             
 ca-certificates-bundle               20240226-r0            apk             
@@ -239,7 +239,7 @@ setasign/fpdi                        v2.6.0                 php-composer
 shadow                               4.14.2-r0              apk             
 skalibs                              2.14.0.1-r0            apk             
 spomky-labs/otphp                    11.3.0                 php-composer    
-ssl_client                           1.36.1-r18             apk             
+ssl_client                           1.36.1-r19             apk             
 symfony/asset                        v6.4.8                 php-composer    
 symfony/browser-kit                  v6.4.8                 php-composer    
 symfony/cache                        v6.4.8                 php-composer    
