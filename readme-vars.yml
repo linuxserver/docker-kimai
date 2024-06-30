@@ -17,11 +17,6 @@ available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 
-# development version
-development_versions: false
-development_versions_items:
-  - { tag: "latest", desc: "Stable Kimai releases." }
-
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
@@ -70,7 +65,7 @@ app_setup_block: |
   ```
 
   ### Initial setup
-  
+
   Access the web gui at `http://<your-ip>:80`, for more information check out [Kimai Initial setup](https://www.kimai.org/documentation/initial-setup.html).
 
 # application setup snippets
@@ -113,6 +108,7 @@ external_application_unraid_block: "We recommend using our [MariaDB](https://git
 
 # changelog
 changelogs:
+  - { date: "30.06.24:", desc: "Rebase to Alpine 3.20. Existing users should update their nginx confs to avoid http2 deprecation warnings."}
   - { date: "24.03.24:", desc: "Added LDAP module to composer" }
   - { date: "06.03.24:", desc: "Existing users should update: site-confs/default.conf - Cleanup default site conf." }
   - { date: "23.01.24:", desc: "Rebase to Alpine 3.19 with php 8.3."}

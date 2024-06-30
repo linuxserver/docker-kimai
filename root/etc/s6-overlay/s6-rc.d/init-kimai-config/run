@@ -29,10 +29,10 @@ mkdir -p \
 rm -rf /app/www/var
 ln -s /config/www/var /app/www/var
 cp /app/www/config/packages/kimai.yaml /config/kimai.yaml.sample
-if [ ! -f /config/local.yaml ]; then
+if [[ ! -f /config/local.yaml ]]; then
     echo '# See https://www.kimai.org/documentation/local-yaml.html' > /config/local.yaml
 fi
-if [ ! -L /app/www/config/packages/local.yaml ]; then
+if [[ ! -L /app/www/config/packages/local.yaml ]]; then
     ln -s /config/local.yaml /app/www/config/packages/local.yaml
 fi
 
