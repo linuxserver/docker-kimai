@@ -71,6 +71,7 @@ jms/serializer                       3.30.0                 php-composer
 jms/serializer-bundle                5.4.0                  php-composer    
 jq                                   1.7.1-r0               apk             
 kevinpapst/tabler-bundle             1.5.3                  php-composer    
+kimai2                               UNKNOWN                npm             
 laminas/laminas-ldap                 2.18.1                 php-composer    
 league/csv                           9.16.0                 php-composer    
 libacl                               2.3.2-r0               apk             
