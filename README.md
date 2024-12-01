@@ -91,10 +91,12 @@ docker exec -it kimai console kimai:user:create your_username admin@example.com 
 
 Access the web gui at `http://<your-ip>:80`, for more information check out [Kimai Initial setup](https://www.kimai.org/documentation/initial-setup.html).
 
- 
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
+
+>[!NOTE]
+>Unless a parameter is flaged as 'optional', it is *mandatory* and a value must be provided.
 
 ### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
 
@@ -175,8 +177,8 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 80` | http gui |
-| `-p 443` | https gui |
+| `-p 80:80` | http gui |
+| `-p 443:443` | https gui |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
