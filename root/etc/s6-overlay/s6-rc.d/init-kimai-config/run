@@ -63,4 +63,3 @@ lsiown -R abc:abc \
     /config/www
 
 console kimai:install -n
-console kimai:update -n
