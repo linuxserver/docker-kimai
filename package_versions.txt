@@ -74,7 +74,7 @@ libcrypto3                           3.3.3-r0               apk
 libcurl                              8.12.1-r0              apk             
 libdav1d                             1.4.2-r0               apk             
 libedit                              20240517.3.1-r0        apk             
-libexpat                             2.6.4-r0               apk             
+libexpat                             2.7.0-r0               apk             
 libgcc                               13.2.1_git20240309-r1  apk             
 libgcrypt                            1.10.3-r0              apk             
 libgpg-error                         1.49-r0                apk             
@@ -126,7 +126,7 @@ nelmio/api-doc-bundle                v4.37.1                php-composer
 nelmio/cors-bundle                   2.5.0                  php-composer    
 netcat-openbsd                       1.226-r0               apk             
 nghttp2-libs                         1.62.1-r0              apk             
-nginx                                1.26.2-r0              apk             
+nginx                                1.26.3-r0              apk             
 nikic/php-parser                     v5.4.0                 php-composer    
 onelogin/php-saml                    4.2.0                  php-composer    
 oniguruma                            6.9.9-r0               apk             
