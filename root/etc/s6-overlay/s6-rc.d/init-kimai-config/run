@@ -37,7 +37,7 @@ if [[ ! -L /app/www/config/packages/local.yaml ]]; then
 fi
 
 # Clear cache on image upgade
-if [[ ! -f /tmp/dbwait.lock ]];then
+if [[ ! -f /dbwait.lock ]];then
     rm -rf /config/www/var/cache/*
 fi
 
