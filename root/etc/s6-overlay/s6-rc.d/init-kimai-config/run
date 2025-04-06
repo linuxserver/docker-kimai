@@ -38,7 +38,7 @@ fi
 
 # Clear cache on image upgade
 if [[ ! -f /tmp/dbwait.lock ]];then
-    rm -rf /config//www/var/cache/*
+    rm -rf /config/www/var/cache/*
 fi
 
 DB_HOST=$(php -r 'echo parse_url(getenv("DATABASE_URL"), PHP_URL_HOST);')
