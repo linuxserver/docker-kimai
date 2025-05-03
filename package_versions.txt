@@ -34,7 +34,7 @@ doctrine/cache                       2.2.0             php-composer
 doctrine/collections                 2.3.0             php-composer    
 doctrine/common                      3.5.0             php-composer    
 doctrine/dbal                        3.9.4             php-composer    
-doctrine/deprecations                1.1.4             php-composer    
+doctrine/deprecations                1.1.5             php-composer    
 doctrine/doctrine-bundle             2.14.0            php-composer    
 doctrine/doctrine-migrations-bundle  3.4.1             php-composer    
 doctrine/event-manager               2.0.1             php-composer    
@@ -59,10 +59,10 @@ git-init-template                    2.47.2-r0         apk
 icu-data-en                          74.2-r0           apk             
 icu-libs                             74.2-r0           apk             
 jms/metadata                         2.8.0             php-composer    
-jms/serializer                       3.32.3            php-composer    
+jms/serializer                       3.32.4            php-composer    
 jms/serializer-bundle                5.5.1             php-composer    
 jq                                   1.7.1-r0          apk             
-kevinpapst/tabler-bundle             1.7.0             php-composer    
+kevinpapst/tabler-bundle             1.8.0             php-composer    
 laminas/laminas-ldap                 2.19.0            php-composer    
 league/csv                           9.23.0            php-composer    
 libattr                              2.5.2-r2          apk             
@@ -166,7 +166,7 @@ php83-xmlwriter                      8.3.19-r0         apk
 php83-xsl                            8.3.19-r0         apk             
 php83-zip                            8.3.19-r0         apk             
 phpdocumentor/reflection-common      2.2.0             php-composer    
-phpdocumentor/reflection-docblock    5.6.1             php-composer    
+phpdocumentor/reflection-docblock    5.6.2             php-composer    
 phpdocumentor/type-resolver          1.10.0            php-composer    
 phpoffice/math                       0.2.0             php-composer    
 phpoffice/phpspreadsheet             2.3.8             php-composer    
@@ -264,6 +264,6 @@ webmozart/assert                     1.11.0            php-composer
 willdurand/jsonp-callback-validator  v2.0.0            php-composer    
 willdurand/negotiation               3.1.0             php-composer    
 xz-libs                              5.6.3-r1          apk             
-zircote/swagger-php                  5.0.7             php-composer    
+zircote/swagger-php                  5.1.0             php-composer    
 zlib                                 1.3.1-r2          apk             
 zstd-libs                            1.5.6-r2          apk             
