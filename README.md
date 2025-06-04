@@ -111,6 +111,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
       - DATABASE_URL=mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name?charset=your_db_charset&serverVersion=your_db_version
+      - TRUSTED_PROXIES=127.0.0.1/32 #optional
     volumes:
       - /path/to/kimai/config:/config
     ports:
@@ -148,6 +149,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -e DATABASE_URL=mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name?charset=your_db_charset&serverVersion=your_db_version \
+  -e TRUSTED_PROXIES=127.0.0.1/32 `#optional` \
   -p 80:80 \
   -p 443:443 \
   -v /path/to/kimai/config:/config \
@@ -183,6 +185,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e DATABASE_URL=mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name?charset=your_db_charset&serverVersion=your_db_version` | Configure your database connection, see Application Setup instructions. |
+| `-e TRUSTED_PROXIES=127.0.0.1/32` | If behind a reverse proxy set this to its IP or network CIDR so that Kimai trusts its headers. |
 | `-v /config` | Persistent config files |
 
 ## Environment variables from files (Docker secrets)
