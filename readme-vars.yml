@@ -23,6 +23,9 @@ param_container_name: "{{ project_name }}"
 param_usage_include_env: true
 param_env_vars:
   - {env_var: "DATABASE_URL", env_value: "mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name?charset=your_db_charset&serverVersion=your_db_version", desc: "Configure your database connection, see Application Setup instructions."}
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - {env_var: "TRUSTED_PROXIES", env_value: "127.0.0.1/32", desc: "If behind a reverse proxy set this to its IP or network CIDR so that Kimai trusts its headers."}
 param_usage_include_vols: true
 param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files"}
