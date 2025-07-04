@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.21
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.22
 
 # set version label
 ARG BUILD_DATE
@@ -12,18 +12,18 @@ LABEL maintainer="nemchik"
 RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
-    php83-gd \
-    php83-intl \
-    php83-ldap \
-    php83-pdo_mysql \
-    php83-pecl-redis \
-    php83-tokenizer \
-    php83-xmlreader \
-    php83-xsl && \
+    php84-gd \
+    php84-intl \
+    php84-ldap \
+    php84-pdo_mysql \
+    php84-pecl-redis \
+    php84-tokenizer \
+    php84-xmlreader \
+    php84-xsl && \
   echo "**** configure php-fpm to pass env vars ****" && \
-  sed -E -i 's/^;?clear_env ?=.*$/clear_env = no/g' /etc/php83/php-fpm.d/www.conf && \
-  grep -qxF 'clear_env = no' /etc/php83/php-fpm.d/www.conf || echo 'clear_env = no' >> /etc/php83/php-fpm.d/www.conf && \
-  echo "env[PATH] = /usr/local/bin:/usr/bin:/bin" >> /etc/php83/php-fpm.conf && \
+  sed -E -i 's/^;?clear_env ?=.*$/clear_env = no/g' /etc/php84/php-fpm.d/www.conf && \
+  grep -qxF 'clear_env = no' /etc/php84/php-fpm.d/www.conf || echo 'clear_env = no' >> /etc/php84/php-fpm.d/www.conf && \
+  echo "env[PATH] = /usr/local/bin:/usr/bin:/bin" >> /etc/php84/php-fpm.conf && \
   echo "**** install kimai ****" && \
   mkdir -p\
     /app/www && \
