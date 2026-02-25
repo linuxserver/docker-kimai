@@ -48,7 +48,7 @@ doctrine/sql-formatter               1.5.4                 php-composer
 easybill/zugferd-php                 v2.1.1                php-composer    
 egulias/email-validator              4.0.4                 php-composer    
 endroid/qr-code                      4.8.5                 php-composer    
-erusev/parsedown                     1.7.4                 php-composer    
+erusev/parsedown                     1.8.0                 php-composer    
 findutils                            4.10.0-r0             apk             
 freetype                             2.14.1-r0             apk             
 friendsofsymfony/rest-bundle         3.9.0                 php-composer    
@@ -88,7 +88,7 @@ libjpeg-turbo                        3.1.2-r0              apk
 libldap                              2.6.10-r0             apk             
 libmd                                1.1.0-r0              apk             
 libncursesw                          6.5_p20251123-r0      apk             
-libpng                               1.6.54-r0             apk             
+libpng                               1.6.55-r0             apk             
 libproc2                             4.0.5-r0              apk             
 libpsl                               0.21.5-r3             apk             
 libsasl                              2.1.28-r9             apk             
@@ -131,7 +131,7 @@ nelmio/cors-bundle                   2.6.1                 php-composer
 netcat-openbsd                       1.234.1-r0            apk             
 nghttp2-libs                         1.68.0-r0             apk             
 nghttp3                              1.13.1-r0             apk             
-nginx                                1.28.2-r0             apk             
+nginx                                1.28.2-r1             apk             
 nikic/php-parser                     v5.7.0                php-composer    
 onelogin/php-saml                    4.3.1                 php-composer    
 oniguruma                            6.9.10-r0             apk             
