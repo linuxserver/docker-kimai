@@ -11,7 +11,7 @@ apk-tools                            3.0.5-r0              apk
 apr                                  1.7.6-r0              apk             
 apr-util                             1.6.3-r2              apk             
 argon2-libs                          20190702-r5           apk             
-azuyalabs/yasumi                     2.9.0                 php-composer    
+azuyalabs/yasumi                     2.11.0                php-composer    
 bacon/bacon-qr-code                  2.0.8                 php-composer    
 bash                                 5.3.3-r1              apk             
 brotli-libs                          1.2.0-r0              apk             
@@ -41,11 +41,11 @@ doctrine/event-manager               2.1.1                 php-composer
 doctrine/inflector                   2.1.0                 php-composer    
 doctrine/instantiator                2.0.0                 php-composer    
 doctrine/lexer                       3.0.1                 php-composer    
-doctrine/migrations                  3.9.6                 php-composer    
+doctrine/migrations                  3.9.7                 php-composer    
 doctrine/orm                         2.20.10               php-composer    
 doctrine/persistence                 3.4.3                 php-composer    
 doctrine/sql-formatter               1.5.4                 php-composer    
-easybill/zugferd-php                 v2.1.1                php-composer    
+easybill/zugferd-php                 v2.3.1                php-composer    
 egulias/email-validator              4.0.4                 php-composer    
 endroid/qr-code                      4.8.5                 php-composer    
 erusev/parsedown                     1.8.0                 php-composer    
@@ -67,7 +67,7 @@ jms/metadata                         2.9.0                 php-composer
 jms/serializer                       3.32.7                php-composer    
 jms/serializer-bundle                5.5.2                 php-composer    
 jq                                   1.8.1-r0              apk             
-kevinpapst/tabler-bundle             2.2.0                 php-composer    
+kevinpapst/tabler-bundle             2.2.1                 php-composer    
 laminas/laminas-ldap                 2.19.0                php-composer    
 league/csv                           9.28.0                php-composer    
 libapk                               3.0.5-r0              apk             
@@ -114,7 +114,7 @@ linux-pam                            1.7.1-r2              apk
 logrotate                            3.22.0-r0             apk             
 lorenzo/pinky                        1.1.0                 php-composer    
 lz4-libs                             1.10.0-r0             apk             
-maennchen/zipstream-php              3.1.1                 php-composer    
+maennchen/zipstream-php              3.1.2                 php-composer    
 markbaker/complex                    3.0.2                 php-composer    
 markbaker/matrix                     3.0.1                 php-composer    
 monolog/monolog                      3.10.0                php-composer    
@@ -126,7 +126,7 @@ musl-utils                           1.2.5-r23             apk
 myclabs/deep-copy                    1.13.4                php-composer    
 nano                                 8.7-r0                apk             
 ncurses-terminfo-base                6.5_p20251123-r0      apk             
-nelmio/api-doc-bundle                v5.7.1                php-composer    
+nelmio/api-doc-bundle                v5.10.0               php-composer    
 nelmio/cors-bundle                   2.6.1                 php-composer    
 netcat-openbsd                       1.234.1-r0            apk             
 nghttp2-libs                         1.68.0-r0             apk             
@@ -135,7 +135,7 @@ nginx                                1.28.3-r0             apk
 nikic/php-parser                     v5.7.0                php-composer    
 onelogin/php-saml                    4.3.1                 php-composer    
 oniguruma                            6.9.10-r0             apk             
-openspout/openspout                  v4.25.0               php-composer    
+openspout/openspout                  v4.28.5               php-composer    
 openssl                              3.5.6-r0              apk             
 pagerfanta/pagerfanta                v4.8.0                php-composer    
 paragonie/constant_time_encoding     v2.8.2                php-composer    
@@ -174,7 +174,7 @@ phpdocumentor/reflection-common      2.2.0                 php-composer
 phpdocumentor/reflection-docblock    5.6.7                 php-composer    
 phpdocumentor/type-resolver          1.12.0                php-composer    
 phpoffice/math                       0.3.0                 php-composer    
-phpoffice/phpspreadsheet             2.4.4                 php-composer    
+phpoffice/phpspreadsheet             2.4.5                 php-composer    
 phpoffice/phpword                    1.4.0                 php-composer    
 phpstan/phpdoc-parser                2.3.2                 php-composer    
 popt                                 1.19-r4               apk             
@@ -186,6 +186,7 @@ psr/event-dispatcher                 1.0.0                 php-composer
 psr/http-message                     2.0                   php-composer    
 psr/log                              3.0.2                 php-composer    
 psr/simple-cache                     3.0.0                 php-composer    
+radebatz/type-info-extras            1.0.7                 php-composer    
 readline                             8.3.1-r0              apk             
 robrichards/xmlseclibs               3.1.5                 php-composer    
 scanelf                              1.3.8-r2              apk             
@@ -196,7 +197,7 @@ setasign/fpdf                        1.8.6                 php-composer
 setasign/fpdi                        v2.6.6                php-composer    
 shadow                               4.18.0-r0             apk             
 skalibs-libs                         2.14.4.0-r0           apk             
-smalot/pdfparser                     v2.12.4               php-composer    
+smalot/pdfparser                     v2.12.5               php-composer    
 spomky-labs/otphp                    11.4.2                php-composer    
 ssl_client                           1.37.0-r30            apk             
 swagger-php-tools                    1.0.0                 npm             
@@ -251,6 +252,7 @@ symfony/translation                  v6.4.34               php-composer
 symfony/translation-contracts        v3.6.1                php-composer    
 symfony/twig-bridge                  v6.4.36               php-composer    
 symfony/twig-bundle                  v6.4.32               php-composer    
+symfony/type-info                    v7.4.8                php-composer    
 symfony/validator                    v6.4.36               php-composer    
 symfony/var-dumper                   v6.4.36               php-composer    
 symfony/var-exporter                 v6.4.36               php-composer    
@@ -265,10 +267,10 @@ twig/string-extra                    v3.24.0               php-composer
 twig/twig                            v3.24.0               php-composer    
 tzdata                               2026a-r0              apk             
 utmps-libs                           0.1.3.1-r0            apk             
-webmozart/assert                     1.12.1                php-composer    
+webmozart/assert                     2.3.0                 php-composer    
 willdurand/jsonp-callback-validator  v2.0.0                php-composer    
 willdurand/negotiation               3.1.0                 php-composer    
 xz-libs                              5.8.2-r0              apk             
-zircote/swagger-php                  5.8.3                 php-composer    
+zircote/swagger-php                  6.0.6                 php-composer    
 zlib                                 1.3.2-r0              apk             
 zstd-libs                            1.5.7-r2              apk             
