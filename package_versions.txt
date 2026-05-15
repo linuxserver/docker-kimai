@@ -21,7 +21,7 @@ c-ares                               1.34.6-r0             apk
 ca-certificates                      20260413-r0           apk             
 ca-certificates-bundle               20260413-r0           apk             
 catatonit                            0.2.1-r0              apk             
-composer                             2.9.7                 binary          
+composer                             2.9.8                 binary          
 composer/pcre                        3.3.2                 php-composer    
 composer/semver                      3.4.4                 php-composer    
 coreutils                            9.8-r1                apk             
@@ -131,7 +131,7 @@ nelmio/cors-bundle                   2.6.1                 php-composer
 netcat-openbsd                       1.234.1-r0            apk             
 nghttp2-libs                         1.69.0-r0             apk             
 nghttp3                              1.13.1-r0             apk             
-nginx                                1.28.3-r0             apk             
+nginx                                1.28.3-r1             apk             
 nikic/php-parser                     v5.7.0                php-composer    
 onelogin/php-saml                    4.3.1                 php-composer    
 oniguruma                            6.9.10-r0             apk             
