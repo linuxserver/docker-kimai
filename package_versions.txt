@@ -130,7 +130,7 @@ nelmio/api-doc-bundle                v5.10.2               php-composer
 nelmio/cors-bundle                   2.6.1                 php-composer    
 netcat-openbsd                       1.234.1-r0            apk             
 nghttp2-libs                         1.69.0-r0             apk             
-nginx                                1.28.3-r1             apk             
+nginx                                1.28.3-r2             apk             
 nikic/php-parser                     v5.7.0                php-composer    
 onelogin/php-saml                    4.3.2                 php-composer    
 oniguruma                            6.9.10-r0             apk             
