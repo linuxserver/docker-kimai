@@ -22,7 +22,9 @@ common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_env: true
 param_env_vars:
+  - {env_var: "APP_SECRET", env_value: "", desc: "Random string used for session encryption. Generate using e.g. `openssl rand -hex 32`."}
   - {env_var: "DATABASE_URL", env_value: "mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name?charset=your_db_charset&serverVersion=your_db_version", desc: "Configure your database connection, see Application Setup instructions."}
+  - {env_var: "TRUSTED_HOSTS", env_value: "kimai.example.com", desc: "Domain or IP you will be using to access Kimai. Can be a regex like `localhost|127.0.0.1|kimai.example.com`"}
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - {env_var: "TRUSTED_PROXIES", env_value: "127.0.0.1/32", desc: "If behind a reverse proxy set this to its IP or network CIDR so that Kimai trusts its headers."}
@@ -157,6 +159,7 @@ init_diagram: |
   "kimai:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "04.07.27:", desc: "Rebase to Alpine 3.24."}
   - {date: "28.12.25:", desc: "Rebase to Alpine 3.23."}
   - {date: "04.07.25:", desc: "Rebase to Alpine 3.22."}
   - {date: "06.04.25:", desc: "Rebase to Alpine 3.21."}
