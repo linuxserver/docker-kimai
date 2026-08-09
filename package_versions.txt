@@ -125,7 +125,7 @@ musl-utils                           1.2.6-r2          apk
 myclabs/deep-copy                    1.13.4            php-composer    
 nano                                 9.2-r0            apk             
 ncurses-terminfo-base                6.6_p20260516-r0  apk             
-nelmio/api-doc-bundle                v5.10.3           php-composer    
+nelmio/api-doc-bundle                v5.11.0           php-composer    
 nelmio/cors-bundle                   2.6.1             php-composer    
 netcat-openbsd                       1.234.1-r0        apk             
 nghttp2-libs                         1.69.0-r0         apk             
