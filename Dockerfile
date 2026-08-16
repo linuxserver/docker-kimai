@@ -29,7 +29,7 @@ RUN \
     /app/www && \
   if [ -z ${KIMAI_RELEASE+x} ]; then \
     KIMAI_RELEASE=$(curl -sX GET "https://api.github.com/repos/kimai/kimai/releases/latest" \
-      | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+      | jq -r '.tag_name'); \
   fi && \
   curl -o \
     /tmp/kimai.tar.gz -L \
