@@ -123,13 +123,13 @@ mpdf/psr-log-aware-trait             v3.0.0            php-composer
 musl                                 1.2.6-r2          apk             
 musl-utils                           1.2.6-r2          apk             
 myclabs/deep-copy                    1.14.0            php-composer    
-nano                                 9.2-r0            apk             
+nano                                 9.3-r0            apk             
 ncurses-terminfo-base                6.6_p20260516-r0  apk             
 nelmio/api-doc-bundle                v5.13.1           php-composer    
 nelmio/cors-bundle                   2.6.1             php-composer    
 netcat-openbsd                       1.234.1-r0        apk             
 nghttp2-libs                         1.70.0-r0         apk             
-nginx                                1.30.4-r1         apk             
+nginx                                1.30.6-r0         apk             
 nikic/php-parser                     v5.9.0            php-composer    
 onelogin/php-saml                    4.3.2             php-composer    
 oniguruma                            6.9.10-r0         apk             
